@@ -190,3 +190,61 @@ The proposed Enhanced Attention Transformer U-Net achieved improved tumour segme
 ---
 
 # Repository Structure
+
+Enhanced-Attention-Transformer-UNet-KiTS23
+
+│
+├── notebooks
+│ ├── Part_1_Data_Preprocessing.ipynb
+│ ├── Part_2_3D_UNet_Training.ipynb
+│ ├── Part_3_Evaluation.ipynb
+│ └── Part_12_Final_Evaluation.ipynb
+│
+├── src
+│ ├── preprocessing.py
+│ ├── dataset_loader.py
+│ ├── unet3d.py
+│ ├── transformer_unet.py
+│ └── metrics.py
+│
+├── results
+│ ├── evaluation_results.csv
+│ └── model_comparison.csv
+│
+├── figures
+│ ├── segmentation_results.png
+│ └── comparison_graphs.png
+│
+├── models
+│
+├── docs
+│ └── Dissertation.pdf
+│
+├── requirements.txt
+├── LICENSE
+└── README.md
+
+
+---
+Ethical Statement
+
+This research uses the publicly available KiTS23 dataset containing anonymised medical CT images. No personally identifiable information is accessed or processed. The dataset is used exclusively for academic research purposes, following responsible data usage and medical imaging research principles.
+
+Acknowledgement
+
+The authors acknowledge the KiTS23 challenge organisers and contributors for providing an open-source benchmark dataset that enables reproducible research in kidney tumour segmentation.
+
+# Installation
+
+Clone this repository:
+
+```bash
+git clone https://github.com/shayketmalaker069/Enhanced-Attention-Transformer-UNet-KiTS23.git
+
+pip install -r requirements.txt
+
+python src/preprocessing.py
+
+python train.py
+
+python evaluate.py
