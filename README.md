@@ -224,18 +224,26 @@ The analysis includes:
 
 ## Training Loss Curve
 
-![Training Loss](<img width="676" height="458" alt="image" src="https://github.com/user-attachments/assets/a669eb66-3d03-43f0-9879-d3f2f51a7286" />
-)
+![Training Loss]
+<img width="676" height="458" alt="image" src="https://github.com/user-attachments/assets/a669eb66-3d03-43f0-9879-d3f2f51a7286" />
 
 ## Dice Score Curve
 
-![Dice Curve](<img width="720" height="488" alt="image" src="https://github.com/user-attachments/assets/44452b55-98b0-4aa3-a20e-0ef48c5fe560" />) 
+![Dice Curve]
+<img width="720" height="488" alt="image" src="https://github.com/user-attachments/assets/44452b55-98b0-4aa3-a20e-0ef48c5fe560" /> 
 
 
----
+# Installation
 
----
+Clone this repository:
 
+```bash
+git clone https://github.com/shayketmalaker069/Enhanced-Attention-Transformer-UNet-KiTS23.git
+
+pip install -r requirements.txt
+
+
+```
 ## 4. Repository Structure ✅
 
 This helps your supervisor understand your files.
@@ -255,19 +263,15 @@ Enhanced-Attention-Transformer-UNet-KiTS23
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+```
 
 ---
 
-# Installation
+# 6. Add Ethical Statement
 
-Clone this repository:
+Important for your dissertation:
 
-```bash
-git clone https://github.com/shayketmalaker069/Enhanced-Attention-Transformer-UNet-KiTS23.git
-
-pip install -r requirements.txt
-
-
+`markdown
 ---
 
 # Ethical Considerations
@@ -276,7 +280,32 @@ This research uses the publicly available KiTS23 Kidney Tumour Segmentation Data
 
 The dataset contains anonymised medical CT images and does not include personally identifiable patient information.
 
-The data was used exclusively for academic research purposes and follows responsible medical imaging research practices.
+The dataset was used only for academic research purposes, following responsible medical data handling principles.
+
+---
+---
+
+# Future Work
+
+Future improvements may include:
+
+- Training with larger multi-centre datasets
+- Self-supervised pretraining strategies
+- Real-time clinical deployment optimisation
+- Further improvement of tumour boundary refinement
+- Integration with radiological decision-support systems
+
+
+# Citation
+
+If you use this work, please cite:
+
+Malaker, S. (2026).
+
+Enhanced Attention Transformer U-Net for Kidney Tumour Segmentation Using KiTS23.
+
+3D Kidney and Kidney Tumour Segmentation Using Deep Learning:
+A Comparative Study on the KiTS23 Dataset.
 
 ---
 
