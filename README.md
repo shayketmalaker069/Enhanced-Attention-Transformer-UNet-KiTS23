@@ -203,7 +203,7 @@ The comparison includes:
 
 The proposed model demonstrates improved tumour localisation, smoother boundaries, and better segmentation consistency.
 
-![Segmentation Comparison]
+
 
 <img width="1034" height="798" alt="image" src="https://github.com/user-attachments/assets/d260f061-d89f-470b-9f58-fa60a6a1d2da" />
 
@@ -224,12 +224,11 @@ The analysis includes:
 
 ## Training Loss Curve
 
-![Training Loss]
+
 <img width="676" height="458" alt="image" src="https://github.com/user-attachments/assets/a669eb66-3d03-43f0-9879-d3f2f51a7286" />
 
 ## Dice Score Curve
 
-![Dice Curve]
 <img width="720" height="488" alt="image" src="https://github.com/user-attachments/assets/44452b55-98b0-4aa3-a20e-0ef48c5fe560" /> 
 
 
@@ -246,7 +245,6 @@ pip install -r requirements.txt
 ```
 ## 4. Repository Structure ✅
 
-This helps your supervisor understand your files.
 
 ```markdown
 ---
@@ -269,9 +267,7 @@ Enhanced-Attention-Transformer-UNet-KiTS23
 
 # 6. Add Ethical Statement
 
-Important for your dissertation:
 
-`markdown
 ---
 
 # Ethical Considerations
